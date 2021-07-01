@@ -27,6 +27,6 @@ namespace pandemic{
       virtual Player& discover_cure(Color c_);
       virtual Player& treat(City c_);
       string role(){return type_player;}
-      Player& take_card(City c_);
+      vitrual Player& take_card(City c_);
   };
 }
